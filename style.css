@@ -1,5 +1,10 @@
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
 .responsive {
-    width: auto;
+    width: ;
     max-width: 100%;
     height: auto;
   }
