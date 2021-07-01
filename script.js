@@ -40,32 +40,3 @@ function checkTime(i) {
     }
     return i;
 }
- 
- var d=new Date()
- var theDay=d.getDay()
- switch (theDay)
- {
- case 1:
-   document.write("Oh no, it's Monday.")
-   break
- case 2:
-   document.write("Just another Tuesday.")
-   break
- case 3:
-   document.write("HUMP DAY!")
-   break
- case 4:
-   document.write("<p id='greeting' >So close to Friday!</p>")
-   break
- case 5:
-   document.write("It's finally Friday!")
-   break
- case 6:
-   document.write("I love Saturdays.")
-   break
- case 0:
-   document.write("<p>Lazy Sunday.</p>")
-   break
- default:
-   document.write("I'm looking forward to this weekend!")
- }
