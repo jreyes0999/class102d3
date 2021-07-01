@@ -14,7 +14,7 @@ function startTime() {
     var hr = today.getHours();
     var min = today.getMinutes();
     var sec = today.getSeconds();
-    ap = (hr < 12) ? "AM" : "PM";
+    var ap = (hr < 12) ? "AM" : "PM";
     hr = (hr == 0) ? 12 : hr;
     hr = (hr > 12) ? hr - 12 : hr;
     //Add a zero in front of numbers<10
@@ -42,7 +42,7 @@ function checkTime(i) {
 }
  
  var d=new Date()
- theDay=d.getDay()
+ var theDay=d.getDay()
  switch (theDay)
  {
  case 1:
@@ -69,9 +69,3 @@ function checkTime(i) {
  default:
    document.write("I'm looking forward to this weekend!")
  }
-
- if (confirm("WELCOME!")) {
-    txt = "Thanks! (Proceed)";
-  } else {
-    txt = "No Thanks! (Proceed Anyway)";
-  }
