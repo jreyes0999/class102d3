@@ -1,3 +1,7 @@
+"use strict";
+    
+alert("Welcome Fellow Leaders!");
+
 function closeCurrentTab(){
      var conf=confirm("Are you sure you want to leave my awesome webpage?");
      if(conf==true){
