@@ -1,6 +1,18 @@
-/*img {
-    max-width: 100%;
-    height: auto;
-    width: auto\9; 
-} 
-*/
+p {
+    border: 2px solid #ccc;
+    font-size: 15px;
+    line-height: 4;
+  }
+  
+  body {
+    margin: 40px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+  
+  text {
+    color: rgb(rgb(255, 255, 255))
+  }
+  
+  body {
+    background-color: black;
+  }
