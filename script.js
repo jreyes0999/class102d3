@@ -55,7 +55,7 @@ function checkTime(i) {
    document.write("HUMP DAY!")
    break
  case 4:
-   document.write("So close to Friday!")
+   document.write("<p id='greeting' >So close to Friday!</p>")
    break
  case 5:
    document.write("It's finally Friday!")
@@ -64,7 +64,7 @@ function checkTime(i) {
    document.write("I love Saturdays.")
    break
  case 0:
-   document.write("Lazy Sunday.")
+   document.write("<p>Lazy Sunday.</p>")
    break
  default:
    document.write("I'm looking forward to this weekend!")
