@@ -28,14 +28,14 @@ body {
     text-shadow:0px 0px 1px #fff;
     color:#fff;
 }
-/*#clock span {
+#clock span {
     color:#888;
     text-shadow:0px 0px 1px #333;
     font-size:30px;
     position:relative;
     top:-27px;
     left:-10px;
-}*/
+}
 #date {
     letter-spacing:10px;
     font-size:14px;
