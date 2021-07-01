@@ -14,7 +14,7 @@ function startTime() {
     var hr = today.getHours();
     var min = today.getMinutes();
     var sec = today.getSeconds();
-    ap = (hr < 12) ? "<span>AM</span>" : "<span>PM</span>";
+    ap = (hr < 12) ? "AM" : "PM";
     hr = (hr == 0) ? 12 : hr;
     hr = (hr > 12) ? hr - 12 : hr;
     //Add a zero in front of numbers<10
