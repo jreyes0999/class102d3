@@ -1,9 +1,3 @@
-let num;
-
-do {
-  num = prompt("Enter a number greater than 25!", 0);
-} while (num <= 25 && num);
-
 var d=new Date()
 var theDay=d.getDay()
 switch (theDay)

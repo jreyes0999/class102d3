@@ -1,5 +1,3 @@
-"use strict";
-    
 alert("Welcome Fellow Leaders!");
 
 function closeCurrentTab(){
@@ -7,6 +5,19 @@ function closeCurrentTab(){
      if(conf==true){
           close();
      }
+}
+
+let num;
+
+do {
+  num = prompt("Enter a number greater than 25!", 0);
+} while (num <= 25 && num);
+function displaypictures(){
+    var anime = prompt("What's the best number?");
+    for(let i = 0; i < anime; i++) {
+      document.write('<img src="https://f.vividscreen.info/soft/285cc181c39a9582a7c8bd1980cab847/Small-Kitten-square-l.jpg"');
+      console.log(i); 
+    } 
 }
 
 function startTime() {
