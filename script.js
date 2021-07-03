@@ -13,9 +13,9 @@ do {
   num = prompt("Enter a number greater than 25!", 0);
 } while (num <= 25 && num);
 function displaypictures(){
-    var anime = prompt("How many cats do you want?");
+    var anime = prompt("How many cats do you want at the bottom of the screen?");
     for(let i = 0; i < anime; i++) {
-      document.write('<img src="https://f.vividscreen.info/soft/285cc181c39a9582a7c8bd1980cab847/Small-Kitten-square-l.jpg">');
+      document.write('<img src="https://flux.s-ul.eu/VlISRJXe.png">');
       console.log(i); 
     } 
 }
