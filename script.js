@@ -15,7 +15,7 @@ do {
 function displaypictures(){
     var anime = prompt("How many cats do you want at the bottom of the screen?");
     for(let i = 0; i < anime; i++) {
-      document.write('<img src="https://flux.s-ul.eu/VlISRJXe.png">');
+      document.write('<img src="https://flux.s-ul.eu/qzn98b7a.png">');
       console.log(i); 
     } 
 }
